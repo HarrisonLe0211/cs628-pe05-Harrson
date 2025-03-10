@@ -29,3 +29,7 @@ A webpage that displays:
 - A form for adding new Recipes by entering their details.
 - A detailed view for each Recipe, accessible by clicking on its name, which shows all associated information.
 - The options to Edit/Delete recipes.
+
+## How to run
+- In the Terminal, start the server by navigating to the "backend" directory. Run the command "node server.mjs"
+- Navigating to the "client" directory. Run the command "npm start"
