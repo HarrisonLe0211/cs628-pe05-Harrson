@@ -14,7 +14,7 @@ export default function Edit() {
     async function fetchData() {
       const id = params.id.toString();
       // API URL to the recipe here
-      const response = await fetch(`https://0kxdfj8s-5050.usw2.devtunnels.ms/recipe/${id}`);
+      const response = await fetch(`https://didactic-guacamole-jjrw6vv9qq9jh544w-5050.app.github.dev/recipe/${id}`);
 
       if (!response.ok) {
         const message = `An error has occurred: ${response.statusText}`;
@@ -49,7 +49,7 @@ export default function Edit() {
       instructions: form.instructions,
     };
 
-    await fetch(`https://0kxdfj8s-5050.usw2.devtunnels.ms/recipe/${params.id}`, {
+    await fetch(`https://didactic-guacamole-jjrw6vv9qq9jh544w-5050.app.github.dev/recipe${params.id}`, {
       method: "PATCH",
       body: JSON.stringify(editedRecipe),
       headers: {

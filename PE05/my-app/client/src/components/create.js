@@ -20,7 +20,7 @@ export default function Create() {
 
     const newRecipe = { ...form };
 
-    await fetch("https://0kxdfj8s-5050.usw2.devtunnels.ms/recipe", {
+    await fetch("https://didactic-guacamole-jjrw6vv9qq9jh544w-5050.app.github.dev/recipe", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -11,7 +11,7 @@ export default function RecipeDetail() {
   useEffect(() => {
     async function fetchRecipe() {
       try {
-        const response = await fetch(`https://0kxdfj8s-5050.usw2.devtunnels.ms/recipe/${id}`);
+        const response = await fetch(`https://didactic-guacamole-jjrw6vv9qq9jh544w-5050.app.github.dev/recipe/${id}`);
         if (!response.ok) {
           throw new Error(`Error: ${response.statusText}`);
         }

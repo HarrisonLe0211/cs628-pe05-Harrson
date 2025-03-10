@@ -43,7 +43,7 @@ export default function RecipeList() {
   useEffect(() => {
     async function getRecipes() {
       try {
-        const response = await fetch("https://0kxdfj8s-5050.usw2.devtunnels.ms/recipe");
+        const response = await fetch("https://didactic-guacamole-jjrw6vv9qq9jh544w-5050.app.github.dev/recipe");
         if (!response.ok) {
           throw new Error(`An error occurred: ${response.statusText}`);
         }
